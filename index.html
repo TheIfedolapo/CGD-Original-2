@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Project Management Dashboard Original</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src= https://cdn.jsdelivr.net/npm/chart.js@3.6.1/dist/chart.min.js></script>
+    
+</head>
+
+<body>
+    <div class="dashboard"><!--Dashboard-->   
+        <section class="navigation"><!--Navigation-->
+    <img src= "assets/img/Instincthub logo.png" alt="Instincthub logo"class= logo>
+    <div style="background-color:#242323;">
+      
+        <h2><img src= "assets/img/bx_bxs-dashboard.png" alt="Dashboard"> <p1> Overview</p1> </h2>
+        <h2><img src= "assets/img/akar-icons_file.png"alt="Classes"> <p1> Classes</p1> </h2>
+        <h2><img src= "assets/img/codicon_graph.png" alt="Analytics"> <p1>Analytics</p1> </h2>
+       <h2><img src= "assets/img/ic_baseline-group.png" alt="Community"> <p1>Community</p1> </h2>
+       <h2><img src= "assets/img/fe_logout.png" alt="Logout"> <p1>Logout</p1></div> </h2>
+       <div>
+            <img src= "assets/img/Upgrade illustration.png">
+            <div style="background: color #00835f;"style="color: #F5F5F5;" >
+            <a href= "skills.instincthub.com" > Upgrade </a>
+        </div>
+    </div>
+        </section><!--Navigation End-->
+
+      <section class="main"><!--main-->
+        <div class= "title">
+            <h1>My Course Dashboard</h1>
+            </div>
+            <div class="search"><!--Search-->
+                <form action=""> 
+                  <input type="text" name= search id= "search"
+                  placeholder= "You're looking for..."> 
+                  <img src= "assets/img/bx_bx-search.png" alt= "Search">
+                  <img src= "assets/img/codicon_bell-dot.png" alt = "Notification">
+                  <img src= "assets/img/User profile.png" alt= "User profile">
+                </div> 
+                
+                                <div class= "Chart 1">
+                                    <canvas id="myChart" width="10" height="10"></canvas>
+                                    <h2> Daily Activities</h2>
+                                </div>
+
+                                <div class= "Chart 2">
+                                    <canvas id="myChart2" width="10" height="10"></canvas>
+                                    <h2> Monthly Activities</h2>
+                                </div>
+
+                                <div class= "Chart3">
+                                    <canvas id="myChart3" width="10" height="10"></canvas>
+                                        <h2> Yearly Activities</h2>
+                                </div>
+               
+                  <div> 
+                    <table>
+                        <tr style="background-color:#242323;">
+                          <th>Number</th>
+                          <th>Course Name</th>
+                          <th>Department</th>
+                          <th>Units</th>
+                          <th>Gpa</th>
+                        </tr>
+                       
+                        <tr>
+                            <td>0</td>
+                            <td>Tax Academy Introduction</td>
+                            <td>Finances</td>
+                            <td>3</td>
+                            <td>4.35/5</td>
+                        </tr>
+
+                        <tr>
+                            <td> 1</td>
+                            <td> Transfer Pricing</td>
+                            <td> Customer Service</td>
+                            <td> 3</td>
+                            <td> 4.35/5</td>
+                        </tr>
+
+                        <tr>
+                            <td> 2</td>
+                            <td> Tax Academy for Beginners</td>
+                            <td> Purchasing</td>
+                            <td> 3</td>
+                            <td> 4.35/5</td>
+                        </tr>
+
+                        <tr>
+                            <td> 3</td>
+                            <td> New Business</td>
+                            <td> Finances</td>
+                            <td> 3</td>
+                            <td> 3.0/5</td>
+                        </tr>
+
+                        <tr>
+                            <td> 4</td>
+                            <td> Tax Accounting</td>
+                            <td> Administration</td>
+                            <td> 8</td>
+                            <td> 4.75/5</td>
+                        </tr>
+
+                        <tr>
+                            <td> 5</td>
+                            <td> Motion Design</td>
+                            <td> IT Dep</td>
+                            <td> 6</td>
+                            <td> 4.45/5</td>
+                        </tr>
+
+                        <tr>
+                            <td> 6</td>
+                            <td> 3D Modelling</td>
+                            <td> IT Dep</td>
+                            <td> 3</td>
+                            <td> 3.0/5</td>
+                        </tr>
+
+                        <tr>
+                            <td> 7</td>
+                            <td> Brand Strategy on Instagram</td>
+                            <td> Marketing</td>
+                            <td> 3</td>
+                            <td> 4.75/5</td>
+                        </tr>
+                </div>
+            </table>
+               <section>
+                <div class= "baseline advertisement"style="background-color:#242323;">
+                    <h1 style="color: #f5f5f5;"> When nothing goes right, go left</h1>
+                    <p1 style="color: #f5f5f5;">
+                        Build your skills with courses and degrees online from anywhere with professional instructors
+                    </p1>
+                    <div class="Learn more"style="background-color:#f5f5f5;"><!--Learn more-->
+                    <a href= "skills.instincthub.com" style="color: #a25075;"> Learn more </a>   
+                    </div>
+                          <div class= "Female Image">
+                              <img src="assets/img/female image.png" alt="Image">
+                          </div>
+                </div>
+
+             </section>
+                
+        </section><!--Main End->
+            
+            <section class="Secondary">< !--Secondary-->
+        </section><!--Secondary End-->
+    
+    </div><!--Dashboard End--> 
+</body>
+
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                    labels: [
+                      'Completed',
+                      'Incompleted'
+                    ],
+                    datasets: [{
+                      label: 'My First Dataset',
+                      data: [71, 29],
+                      backgroundColor: [
+                          '#A25075',
+                          '#00838F'
+                      ],
+                      hoverOffset: 4
+          }]
+        },
+        });
+
+        const dlp = document.getElementById('myChart2').getContext('2d');
+    const myChart2 = new Chart(dlp, {
+        type: 'doughnut',
+        data: {
+                labels: [
+                  'Completed',
+                  'Incompleted'
+                ],
+                datasets: [{
+                  label: 'My First Dataset',
+                  data: [300, 50],
+                  backgroundColor: [
+                      'rgb(255, 99, 132)',
+                        'rgb(54, 162, 235)',
+                        'rgb(255, 205, 86)'
+                  ],
+                  hoverOffset: 4
+      }]
+    },
+    });
+
+    const ife = document.getElementById('myChart3').getContext('2d');
+    const myChart3 = new myChart3(ife, {
+    type: 'doughnut',
+    data: {
+            labels: [
+              'Completed',
+              'Incompleted'
+            ],
+            datasets: [{
+              label: 'My First Dataset',
+              data: [300, 50],
+              backgroundColor: [
+                  'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)'
+              ],
+              hoverOffset: 4
+  }]
+},
+});
+</script>
+
+
+</html>
