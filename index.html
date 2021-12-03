@@ -57,7 +57,7 @@
                                 </div>
 
                                 <div class= "Chart3">
-                                    <canvas id="myChart3" width="10" height="10"></canvas>
+                                    <canvas id="third_chart" width="10" height="10"></canvas>
                                         <h2> Yearly Activities</h2>
                                 </div>
                
@@ -182,7 +182,7 @@
         });
 
         const dlp = document.getElementById('myChart2').getContext('2d');
-    const myChart2 = new Chart(dlp, {
+        const myChart2 = new Chart(dlp, {
         type: 'doughnut',
         data: {
                 labels: [
@@ -202,26 +202,28 @@
     },
     });
 
-    const ife = document.getElementById('myChart3').getContext('2d');
-    const myChart3 = new myChart3(ife, {
-    type: 'doughnut',
-    data: {
-            labels: [
-              'Completed',
-              'Incompleted'
-            ],
-            datasets: [{
-              label: 'My First Dataset',
-              data: [300, 50],
-              backgroundColor: [
-                  'rgb(255, 99, 132)',
-                    'rgb(54, 162, 235)',
-                    'rgb(255, 205, 86)'
-              ],
-              hoverOffset: 4
-  }]
-},
-});
+    
+    const third = document.getElementById('third_chart').getContext('2d');
+    const third_chart = new Chart(third, {
+        type: 'doughnut',
+        data: {
+                labels: [
+                  'Completed',
+                  'Incompleted'
+                ],
+                datasets: [{
+                  label: 'My First Dataset',
+                  data: [300, 50],
+                  backgroundColor: [
+                      'rgb(255, 99, 132)',
+                        'rgb(54, 162, 235)',
+                        'rgb(255, 205, 86)'
+                  ],
+                  hoverOffset: 4
+      }]
+    },
+    });
+
 </script>
 
 
