@@ -9,133 +9,136 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src= https://cdn.jsdelivr.net/npm/chart.js@3.6.1/dist/chart.min.js></script>
     
 </head>
 
 <body>
-    <div class="dashboard"><!--Dashboard-->   
-        <section class="navigation"><!--Navigation-->
+  <div class="dashboard"><!--Dashboard-->   
+        <section class="navigation sidebar"><!--Navigation-->
     <img src= "assets/img/Instincthub logo.png" alt="Instincthub logo"class= logo>
-    <div style="background-color:#242323;">
+    <div>
       
-        <h2><img src= "assets/img/bx_bxs-dashboard.png" alt="Dashboard"> <p1> Overview</p1> </h2>
-        <h2><img src= "assets/img/akar-icons_file.png"alt="Classes"> <p1> Classes</p1> </h2>
-        <h2><img src= "assets/img/codicon_graph.png" alt="Analytics"> <p1>Analytics</p1> </h2>
-       <h2><img src= "assets/img/ic_baseline-group.png" alt="Community"> <p1>Community</p1> </h2>
-       <h2><img src= "assets/img/fe_logout.png" alt="Logout"> <p1>Logout</p1></div> </h2>
-       <div>
-            <img src= "assets/img/Upgrade illustration.png">
-            <div style="background: color #00835f;"style="color: #F5F5F5;" >
+            <h2 style= "background-color: #242323">
+                 <img src= "assets/img/bx_bxs-dashboard.png" alt="Dashboard"> <p1> Overview</p1> </h2>
+             <h2 style= "background-color: #242323">
+                    <img src= "assets/img/akar-icons_file.png"alt="Classes"> <p1> Classes</p1> </h2>
+             <h2 style= "background-color: #242323">
+                    <img src= "assets/img/codicon_graph.png" alt="Analytics"> <p1>Analytics</p1> </h2>
+            <h2 style= "background-color: #242323">
+                <img src= "assets/img/ic_baseline-group.png" alt="Community"> <p1>Community</p1> </h2>
+            <h2 style= "background-color: #242323">
+                <img src= "assets/img/fe_logout.png" alt="Logout"> <p1>Logout</p1></div> </h2>
+                <div>
+                <img src= "assets/img/Upgrade illustration.png">
+            <div>
             <a href= "skills.instincthub.com" > Upgrade </a>
         </div>
-    </div>
+        </div>
         </section><!--Navigation End-->
-
-      <section class="main"><!--main-->
+        <div><!--Dashboard End-->
+<section class="main"><!--main-->
         <div class= "title">
             <h1>My Course Dashboard</h1>
-            </div>
-            <div class="search"><!--Search-->
-                <form action=""> 
+                <form action=" Search"> 
                   <input type="text" name= search id= "search"
                   placeholder= "You're looking for..."> 
                   <img src= "assets/img/bx_bx-search.png" alt= "Search">
                   <img src= "assets/img/codicon_bell-dot.png" alt = "Notification">
                   <img src= "assets/img/User profile.png" alt= "User profile">
-                </div> 
-                
-                                <div class= "Chart 1">
+              </div>
+               <section>
+                <div class= "Activities List"><!--Activities-->
+                                <div class= "Chart1">
                                     <canvas id="myChart" width="10" height="10"></canvas>
-                                    <h2> Daily Activities</h2>
+                                    <h2> Daily </h2>
+                                    <p>Activities</p>
                                 </div>
 
-                                <div class= "Chart 2">
+                                <div class= "Chart2">
                                     <canvas id="myChart2" width="10" height="10"></canvas>
-                                    <h2> Monthly Activities</h2>
+                                    <h2> Monthly </h2>
+                                    <p>Activities</p>
                                 </div>
 
                                 <div class= "Chart3">
                                     <canvas id="third_chart" width="10" height="10"></canvas>
-                                        <h2> Yearly Activities</h2>
+                                        <h2> Yearly </h2>
+                                        <p>Activities</p>
                                 </div>
                
-                  <div> 
-                    <table>
-                        <tr style="background-color:#242323;">
-                          <th>Number</th>
-                          <th>Course Name</th>
-                          <th>Department</th>
-                          <th>Units</th>
-                          <th>Gpa</th>
-                        </tr>
+               
+            </section><!--Main End-->
+
+            <section>
+               <div class = "secondary"><!--Secondary-->
+                    <div class= "table">
+                        
+                          <ul class="Number" style="color: #242323;">
+                            <li class= "topic">No</li>
+                            <li>0</li>
+                          <li>1</li>
+                          <li>2</li>
+                          <li>3</li>
+                            <li>4</li>
+                             <li>5</li>
+                             <li>6</li>
+                                      <li>7</li>
+                          </ul>
                        
-                        <tr>
-                            <td>0</td>
-                            <td>Tax Academy Introduction</td>
-                            <td>Finances</td>
-                            <td>3</td>
-                            <td>4.35/5</td>
-                        </tr>
+                          <ul class="Course Name">
+                            <li class= "topic">Course Name</li>
+                            <li>Tax Academy Introduction</li>
+                            <li>Transfer Pricing</li>
+                            <li>Tax Academy for Beginners</li>
+                            <li>New Business</li>
+                              <li>Tax Accounting</li>
+                               <li>Motion Design</li>
+                               <li>Modelling</li>
+                                        <li>Brand Strategy for Instagram</li>
+                            </ul>
 
-                        <tr>
-                            <td> 1</td>
-                            <td> Transfer Pricing</td>
-                            <td> Customer Service</td>
-                            <td> 3</td>
-                            <td> 4.35/5</td>
-                        </tr>
+                            <ul class="Department">
+                                <li class= "topic">Department</li>
+                                <li>Finances</li>
+                                <li>Customer Services</li>
+                                <li>Purchasing</li>
+                                <li>Finances</li>
+                                  <li>Administration</li>
+                                   <li>IT Dep</li>
+                                   <li>IT Dep</li>
+                                            <li>Marketing</li>
+                                </ul>
 
-                        <tr>
-                            <td> 2</td>
-                            <td> Tax Academy for Beginners</td>
-                            <td> Purchasing</td>
-                            <td> 3</td>
-                            <td> 4.35/5</td>
-                        </tr>
+                                <ul class="Units">
+                                    <li class= "topic">Units</li>
+                                    <li>3</li>
+                                    <li>3</li>
+                                    <li>3</li>
+                                    <li>3</li>
+                                      <li>8</li>
+                                       <li>6</li>
+                                       <li>3</li>
+                                         <li>3</li>
+                                    </ul>
 
-                        <tr>
-                            <td> 3</td>
-                            <td> New Business</td>
-                            <td> Finances</td>
-                            <td> 3</td>
-                            <td> 3.0/5</td>
-                        </tr>
-
-                        <tr>
-                            <td> 4</td>
-                            <td> Tax Accounting</td>
-                            <td> Administration</td>
-                            <td> 8</td>
-                            <td> 4.75/5</td>
-                        </tr>
-
-                        <tr>
-                            <td> 5</td>
-                            <td> Motion Design</td>
-                            <td> IT Dep</td>
-                            <td> 6</td>
-                            <td> 4.45/5</td>
-                        </tr>
-
-                        <tr>
-                            <td> 6</td>
-                            <td> 3D Modelling</td>
-                            <td> IT Dep</td>
-                            <td> 3</td>
-                            <td> 3.0/5</td>
-                        </tr>
-
-                        <tr>
-                            <td> 7</td>
-                            <td> Brand Strategy on Instagram</td>
-                            <td> Marketing</td>
-                            <td> 3</td>
-                            <td> 4.75/5</td>
-                        </tr>
-                </div>
-            </table>
+                                    <ul class="Gpa">
+                                        <li class= "topic">Gpa</li>
+                                        <li>4.3/5</li>
+                                        <li>4.3/5</li>
+                                        <li>4.3/5</li>
+                                        <li>3.0/5</li>
+                                          <li>4.75/5</li>
+                                           <li>4.4/5</li>
+                                           <li>3.0/5</li>
+                                             <li>4.75/5</li>
+                                        </ul>
+    </div>
+                      
+                </div><!--Secondary End-->
+            </section>
+            
                <section>
                 <div class= "baseline advertisement"style="background-color:#242323;">
                     <h1 style="color: #f5f5f5;"> When nothing goes right, go left</h1>
@@ -158,6 +161,14 @@
         </section><!--Secondary End-->
     
     </div><!--Dashboard End--> 
+    </div>
+  </div>
+
+  <div class= "div">
+  <div class= "main"></div>
+  <div class= "secondary"></div>
+  </div>
+
 </body>
 
     <script>
@@ -191,11 +202,10 @@
                 ],
                 datasets: [{
                   label: 'My First Dataset',
-                  data: [300, 50],
+                  data: [20, 80],
                   backgroundColor: [
-                      'rgb(255, 99, 132)',
-                        'rgb(54, 162, 235)',
-                        'rgb(255, 205, 86)'
+                  '#A25075',
+                          '#00838F'
                   ],
                   hoverOffset: 4
       }]
@@ -213,11 +223,10 @@
                 ],
                 datasets: [{
                   label: 'My First Dataset',
-                  data: [300, 50],
+                  data: [12, 88],
                   backgroundColor: [
-                      'rgb(255, 99, 132)',
-                        'rgb(54, 162, 235)',
-                        'rgb(255, 205, 86)'
+                  '#A25075',
+                          '#00838F'
                   ],
                   hoverOffset: 4
       }]

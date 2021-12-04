@@ -1,38 +1,238 @@
 *{
+    
 box-sizing: border-box;
 font-family: 'Nunito', sans-serif;
 }
 body{
+
 margin:0px;
-background-color: aliceblue;
+background-color:aliceblue;
 }
 .dashboard{
     padding: 0px 15px;
     margin: 0 auto;
 }
+ .container {
+     display: flex;
+ }
+
+ .item{
+     background:#fff;
+     flex-basis: 100px;
+     height: 100px;
+     margin: 5px;
+ }
+
         /*==========================
         Navigation
         =============================*/
-        .dashboard .navigation{
-            display:flex;
-            justify-content: space-between;
-            width: 100%;
-            margin-top: 10px;
+        .dashboard  .sidebar {
+            display:flex table-caption;
+            width: 20%;
+            height: 100%;
+            margin-top: 20%;
+            border-radius: 10px;
+            
+            
         }
            .dashboard .navigation img.logo{
-                width: 50px;
+                width: 200px;
                 height:50px;
                 border: radius 10px;
            }
 
-           .dashboard .navigation upgrade illustration.png{
-            width: 50px;
+           .dashboard .navigation img upgrade illustration.png{
+            width: 100px;
             height:50px;
             border: radius 10px;
        }
 
+       .dashboard .navigation div .assets .img {
+        margin-left: 10px;
+        margin-right: 5px;
+        font-size: 20px;
+        color: #727272;
+        background-color: #242323;
+   }
+
+   .dashboard .navigation div  {
+    margin-top: 20px;
+    margin-right: 0px;
+    font-size: 30px;
+    color: #727272;
+}
+
+
         /*==========================
         Main
         =============================*/
+/* Search */
+.dashboard .main .search form {
+margin-top: 30px;
+margin-right: 100px;
 
+}
+
+.dashboard .main .search form input {
+    width: 15%;
+    font-size: 15px;
+    padding: 10px 10px 10px 60px;
+    border: 1px solid #dadada;
+    background-color: rgba( 0 0 0 /0)
+}
+
+    .dashboard .main .search form span {
+      position:absolute;
+        font-size: 60px;
+    }   
+        .dashboard .main .search .notification {
+            margin-top: 20px;
+        }
+
+        .dashboard .main .search .notification :nth-child(1){
+            margin-right: 15px;
+        }
+
+        /* My Course Dashboard */
+        .dashboard .main .title {
+margin-bottom:30px;
+justify-content: center;
+
+        }
+
+        .dashboard .main .title h1 {
+            font-size:35px;
+            line-height: 50px;
+                    }
+
+                    .dashboard .main .title form {
+                        margin-top:40px;
+                        line-height: 0px;
+                                }
+
+                                .dashboard .main .title form label {
+                                    margin-left: 100px;
+                                    color:#727272;
+                                    font: size 16px;
+                                            }
+
+                                            .dashboard .main .title form select {
+                                               border:none;
+                                                font: size 16px;
+                                                background-color: rgba( 0 0 0/0)
+                                                        }
+
+                                                        /* Activities */
+                                                       
+                                                        .dashboard .main .Activities{ 
+                                                            display:flex;
+                                                            margin-bottom: 15%;
+                                                        }
+                                                       
+                                                        .dashboard .Activities .Chart {
+                                                            background-color: #fff;
+                                                            box-shadow: 1px 1px 40px rgba ( 0 0 0 / .01 );
+                                                            border-radius: 0px 10px 10px 0px;
+                                                            padding: 15px;
+                                                            position: relative;
+                                                            
+                                                                    }
+                                                        
+                                                        .Chart1{
+                                                        width: 200px;
+                                                        height:100px;
+                                                        padding: 20px;
+                                                        background: #fff 400% 400%;
+                                                        margin-left: 50px;
+                                                        border-radius: 5px;
+                                                        }
+                                                        .Chart2 {
+                                                            width: 200px;
+                                                            height:100px;
+                                                            padding: 20px;
+                                                            background: #fff;
+                                                            border-radius: 5px;
+
+                                                        }
+
+                                                        .Chart3{
+                                                            width: 200px;
+                                                            height:100px;
+                                                            padding: 20px;
+                                                            background: #fff;
+                                                            margin-right: 50px;
+                                                            border-radius: 10px;
+                                                        }
+                                                        
+                                                        
+                                                        .dashboard .main .Activities .Daily h2 select {
+                                                             font: size 20px;
+                                                             line-height:0;    
+                                                             margin-left:100px;                                             
+                                                        }
+
+                                                        .dashboard .main .Activities_List.p select {
+                                                            color: #727272;
+                                                            line-height:0; 
+                                                            margin-left:100px;    
+                                                        }
+
+                                                        .dashboard .main .Activities_List .Activities{
+                                                            padding: 20px 20px 20px 60px;
+                                                            background-color: #fff;
+                                                            box-shadow: 1px 1px 40px rgba ( 0 0 0 / .01 );
+                                                            margin-bottom:  20px;
+                                                            margin-left:100px;
+                                                            border-radius: 10px;
+                                                            position: relative;
+                                                        }
+
+                                                        .dashboard .main .Activities_List .category{
+                                                            width: 30px;
+                                                            height: 50px;
+                                                            background: color #a25075;
+                                                            border-radius: 0px 10px 10px 0px;
+                                                            position: absolute;
+                                                            left: 0;
+                                                        }
+                                                       
+
+ /*==========================
+        Secondary Statistics
+        =============================*/
+        /* Table */
+        .dashboard .table {
+            padding: 100px;
+            margin-top: 100px;
+            display: flex;
+    }
         
+        .dashboard .table {
+            width: 90%;
+            margin: 0px 40px;
+            background-color: #fff;
+            padding: 15px 15pxx 15px 100px;
+            position: relative;
+            border-radius:10px ;
+        }
+        .dashboard .table{
+          display: flex;
+            align-items: center;
+            justify-content:space-between;
+        }
+        .topic{
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .dashboard  .table li {
+            list-style: none;
+            margin: 8px;
+        }
+
+        .dashboard  .table li topic {
+            font-size: 20px;
+            color: #133;
+            font-size: 400;
+            text-decoration: none;
+        }
